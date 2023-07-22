@@ -1,0 +1,304 @@
+body {
+  margin:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ .formpages{
+  width: 450px;
+  height: 550px;
+  padding: 40px;
+  background-color: #131538;
+  color: white;
+  margin-bottom: 10px;
+} 
+.MuiInput{
+  width: 100%;
+  height: 46PX;
+  background-color: #131536;
+  padding: opx 16px;
+  border-radius: 20px;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+}
+.MuiContainer-root{
+  background-color: #000000;
+  margin-top: 20px;
+}
+.formlllpage{
+  background-color: #0d1030;
+  width: 50vw;
+  height: 100%;
+}
+.imglllpage{
+  /* background-color:linear-gradient( rgb(134, 140, 255) 0%, rgb(67, 24, 255) 100%) ; */
+  background-color: #6553ff;
+  width: 50vw;
+  height: 100%;
+  padding-top: 200px;
+  padding-left: 90px;
+}
+.imglllpages{
+  width: 590px;
+  height: 475px;
+ 
+}
+.imgcoverpage{
+  background: url(../public/images/signInImage.54090d1d.png);
+   width: 50vw;
+  height: 100vh; 
+ 
+}
+.divFormCoverPage{
+  background-color: #0a0d30;
+  width: 50vw;
+  height: 100vh; 
+
+}
+
+
+ /* .btnform{
+  background-color: #582cff;
+  border-radius: 4px;
+}
+  */
+.headernavcoverpage{
+  /* display:flex; */
+  text-align: center;
+  position: absolute;
+  top:16px;
+   left:10%;  
+  background: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.04));
+  border:2px solid rgba(226,232,240,0.3);
+  box-shadow: rgba(0,0,0,0.05)  0px 7px;
+  backdrop-filter: blur(42px);
+  border-radius: 15px;
+  padding-inline: 12px; 
+   padding-top:22px ;
+  padding-bottom:22px ;
+  margin-inline:auto; 
+  /* width:1044px;   */
+ /* max-width: 80%; */
+ height: 100px;
+  color:#fff;
+  z-index: 10px;
+}
+
+.imgnavform{
+  min-height: 50vh;
+ /* width: calc(100vw - 50px);*/
+
+  border-radius: 15px;
+  margin-inline: auto;
+  margin-top: 0px;
+  background: url(../public/images/a.png);
+}
+.maindiv{
+  width: 1519.2px;
+  height: 928.4px;
+}
+/* .navform {
+  margin-top:-340px;
+} */
+/* .headernavform{
+  background-color:#ffffff54 ;
+  margin-top: 15px;
+} */
+/* css product ///////////////////////////////////////////////////////////////////////////////////////////////*/
+.navproducts{
+  /* width: 1099.15px; */
+  /* width:100% ;
+  height:20% ; */
+  background-color: #0b124a;
+}
+
+.ParentDivNew{
+  width:690px ;
+  height: 480px;
+  background-color:#0c1138 ;
+}
+/*.MuiFormControl-root{
+  border:2px solid blue;
+  border-radius: 25px;
+  height: 40px;
+  width:175px
+}*/
+.EditImgPageProduct{
+  width: 419px;
+  height: 510px;
+  background-color:#10133f ;
+}
+.InputPricings{
+  /* width:347px ; */
+  /* height:40px ; */
+  background-color: #0f1535;
+  padding: 0px 16px;
+  /* border: 0.5px solid rgb(226 232 240 ); */
+}
+.MediaDivNew {
+  width: 768px;
+  height: 339px;
+  background-color:#0c1138 ;
+  padding: 22px;
+}
+/* table css*/
+.imgtable{
+  width: 40px;
+  height: 40px;
+  margin: 0px;
+ 
+}
+
+
+
+.MuiTable-root{
+  background-color: #111448;
+  /* .css-quj9j6-MuiTable-root {
+    width: 1157px;
+    height: 1207px;
+    border-radius: 20px;
+    
+    
+  } */
+  
+  .MuiSvgIcon-root{
+  
+    color:#ffb547;
+  }
+  .css-1ex1afd-MuiTableCell-root{
+    color: white;
+  }
+
+  .css-177gid-MuiTableCell-root {
+    color:white;
+  }
+  .css-1ygcj2i-MuiTableCell-root{
+    color: #a0aec0;
+    font-weight: 500px;
+    font-size: medium;
+  }
+  .css-1azl6jz-MuiTableCell-root{
+    color: #a0aec0;
+    font-weight: 500px;
+    font-size: medium;
+  } 
+}
+
+.MuiTableCell-sizeMedium{
+   width: 50%; 
+  height: 4px;
+  color: #3915BC;
+
+
+}
+
+.css-quj9j6-MuiTable-root{
+  width: 50%;
+    border-radius: 20px;
+    border:solid 2px black;
+
+      .caption{
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: large;
+    font-weight: bold;
+  }
+}
+.NewproductPage{
+  background: linear-gradient(90deg, #3144af,#151430);
+  width:100%;
+  height: 100%;
+}
+.ImgNewproduct{
+  /* width:85%;
+  height: 20%; */
+  margin-top: 100px;
+  margin-left: 2px;
+  margin-right: 12px;
+  border-radius: 25px;
+
+}
+.ImgEditProduct {
+  background:linear-gradient(90deg, #3144af,#151430);
+  /* width:100%;
+  height:100%;  */
+}
+
+/* card css//////////////////////////////////////////////////////////////////////////// */
+.ManCard{
+  width: 294.81px;
+  height: 91px;
+  border-radius: 20px;
+  background-color: #0e1239;
+  
+}
+.iconcard{
+  background-color: #582cff;
+  width: 45px;
+  height: 45px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #10133f;
+  border-radius: 12px;
+  padding: 5px 9px;
+  }
+  .MuiSvgIcon{
+    color:white;
+  }
+/* css dashboard    */
+/* css responsive form */
+
+@media only screen and (max-width: 768px) {
+  .imglllpage {
+    display:none;
+  }
+  .formlllpage{
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+  }
+  
+  .imgcoverpage{
+    display:none;
+  }
+  
+  body{
+    font-size: 12px;
+  }
+  .divFormCoverPage {
+    width: 100%;
+    height: 100%;
+    padding-left: 25px;
+  
+  }
+  
+}
+/* responsiv pages product   */
+@media only screen and (max-width: 768px){
+  .NewproductPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 0px;
+    width: 100vw;
+    height: 100vh;
+    .Hnp{
+      visibility: hidden;
+    }
+    
+  }
+ 
+
+}
