@@ -10,12 +10,12 @@ import HeaderNavForms from '../formComponent/SingInpage/HeaderNavForms';
 export default function BasicSingIn() {
   return (
     <div className="bg-gradient-to-r from-indigo-950 to-indigo-700 w-full h-full">
-        <div className="imgnavform absolute inset-x-0  mb-0 ">
-          <HeaderNavForms/>   
+        <div className="imgnavform absolute inset-x-0  mb-0 w-full h-56">
+           <HeaderNavForms/>   
         </div>
         <div className=" z-[1] relative flex flex-col items-center ">
             <div>
-                <div className="flex flex-col items-center justify-center text-center mt-28 mb-14  text-white">
+                <div className="flex flex-col items-center justify-center text-center mt-20 mb-10  text-white">
                     <div className="text-4xl font-bold">Welcome back!</div>
                     <div className="w-96 h-10 mt-2">
                         <p>Use these awesome forms to login or create new 

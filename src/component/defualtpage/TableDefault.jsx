@@ -6,6 +6,8 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import Typography from '@mui/material';
+import { Toolbar } from '@mui/material';
 
 function createData(name, calories, fat, carbs) {
   return { name, calories, fat, carbs};
@@ -20,12 +22,12 @@ const rows = [
 
 export default function TableDashboard() {
   return (
-    <TableContainer component={Paper}>
-         
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
-     
+    <TableContainer component={Paper} sx={{borderRadius:5}}>
+    
+      <Table sx={{Width: 650 , }} aria-label="simple table">
+      
         <TableHead>
-        <caption className='.css-quj9j6-MuiTable-root caption'>Sales by Country</caption>
+        
           <TableRow>
             <TableCell>COUNTRY:</TableCell>
             <TableCell align="right">SALES:</TableCell>
@@ -51,6 +53,7 @@ export default function TableDashboard() {
           ))}
         </TableBody>
       </Table>
+  
     </TableContainer>
   );
 }

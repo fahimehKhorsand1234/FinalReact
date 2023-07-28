@@ -86,7 +86,7 @@ export default function EnhancedTable() {
     <TableContainer
       sx={{
         boxShadow:'none',
-        maxWidth: "75%",
+        maxWidth: "100%",
         "& .MuiTableCell-sizeMedium": {
           width: "fit-content",
         },

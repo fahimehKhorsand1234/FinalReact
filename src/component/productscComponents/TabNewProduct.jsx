@@ -48,9 +48,10 @@ export default function BasicTabs() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-
+//css Box sx={{ width: '100%' }}
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box >
+      <div className='flex justify-center '>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab label="User Info" {...a11yProps(0)} />
@@ -58,7 +59,10 @@ export default function BasicTabs() {
           <Tab label="Socials" {...a11yProps(2)} />
           <Tab label="Profile" {...a11yProps(3)} />
         </Tabs>
+      
       </Box>
+      </div>
+    <div className='w-1/2 mt-2 sm:mt-5'>
       <CustomTabPanel value={value} index={0}>
             <UserInfoProducts/>
       </CustomTabPanel>
@@ -71,6 +75,8 @@ export default function BasicTabs() {
       <CustomTabPanel value={value} index={3}>
             <PricingNewProducts/>  
       </CustomTabPanel>
+      </div> 
     </Box>
+   
   );
 }

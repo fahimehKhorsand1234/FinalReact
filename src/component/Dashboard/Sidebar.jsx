@@ -60,10 +60,10 @@ export default function SideBar() {
         
           <SidebarWrap>
           
-              <NavIcon to="#">
+              {/* <NavIcon to="#">
                   <FaIcons.FaAlignRight onClick={showSidebar}/>
                   
-              </NavIcon>
+              </NavIcon> */}
               <div className='flex flex-row mt-5 justify-center mb-5 '>
                 <img src={logo1} alt="" className='rounded rounded-xl' />
               </div> 

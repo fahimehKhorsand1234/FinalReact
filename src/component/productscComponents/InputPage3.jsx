@@ -12,14 +12,14 @@ export default function InputAdornments(props) {
 //   const handleMouseDownPassword = (event) => {
 //     event.preventDefault();
 //   };
-
+// css box sx={{ display: 'flex', flexWrap: 'wrap', borderColor:'white',color:'#f1535' ,}}
   return (
-    <Box sx={{ display: 'flex', flexWrap: 'wrap', borderColor:'white',color:'#f1535' ,}}>
+    <Box >
       <div>
         <TextField
           label=""
           id="outlined-start-adornment"
-          sx={{ m: 1, width: '80ch'}}
+          sx={{ m: 1, width: '65ch'}}
           InputProps={{
             startAdornment: <InputAdornment position="start">{props.text}</InputAdornment>,
           }}

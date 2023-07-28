@@ -6,7 +6,7 @@ import HeaderNavForms from '../formComponent/SingInpage/HeaderNavForms';
 export default function LllustrationPage() {
   return (
     <div className='relative w-full h-full m-0 p-0'>
-        <div className='headernavcoverpage'>
+        <div className='headernavcoverpage  inset-x-60  mb-0 h-20 w-3/4'>
                 <HeaderNavForms/>
         </div>
         <div className='flex flex-row '>

@@ -7,12 +7,12 @@ export default function MultilineInput() {
     <Box
       component="form"
       sx={{
-        '& .MuiTextField-root': { m: 1, width: '90ch' },
+        '& .MuiTextField-root': { m: 1, width: '70ch' },
       }}
       noValidate
       autoComplete="off"
     >
-      <div>
+      <div className=''>
         <TextField
           id="filled-multiline-static"
           label=""

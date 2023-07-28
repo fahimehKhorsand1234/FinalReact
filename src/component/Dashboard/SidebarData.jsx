@@ -96,17 +96,17 @@ export const SidebarData=[
         subNav:[
             {
                 title:"New Product",
-                path:"/product/newproduct",
+                path:"/products/newproduct",
                 icon:<VscIcons.VscCircleFilled/>, 
             },
             {
                 title:"Edit Product",
-                path:"/product/editproduct",
+                path:"/products/editproduct",
                 icon:<VscIcons.VscCircleFilled/>,  
             },
             {
                 title:"Product Page",
-                path:"/product/productpage",
+                path:"/products/productpage",
                 icon:<VscIcons.VscCircleFilled/>,  
             },
         ]

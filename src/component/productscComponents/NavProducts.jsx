@@ -6,7 +6,7 @@ export default function NavProducts() {
   return (
     <div>
         <div className='navproducts flex flex-row rounded-xl text-white  items-center  justify-around '>
-          <div className='flex flex-row gap-2 items-end'>
+          <div className='flex flex-row  gap-2 items-end'>
                 <div className='py-4'><img src={download} alt=""  className=' rounded rounded-xl'/></div>
                 <div className='py-8'>
                   <p className='font-bold'>Mark Johnson</p>

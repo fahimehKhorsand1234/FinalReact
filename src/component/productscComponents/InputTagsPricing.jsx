@@ -14,7 +14,7 @@ export default function InputTagsPricing() {
       renderInput={(params) => (
         <TextField {...params} label="" placeholder="Favorites" />
       )}
-      sx={{ width: '720px' }}
+      sx={{ width: '500px' }}
     />
   );
 }

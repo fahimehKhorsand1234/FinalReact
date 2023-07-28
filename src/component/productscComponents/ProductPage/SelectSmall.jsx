@@ -12,7 +12,9 @@ export default function SelectSmall() {
   };
 
   return (
-     <FormControl sx={{ m: 1, minWidth: 75 }} size="small">
+     <FormControl  sx={{'& .MuiInputBase-root ':{
+      borderRadius:'16px!important',
+    }, m: 1, minWidth: 75 }} size="small">
       
       <Select
         // labelId="demo-select-small-label"

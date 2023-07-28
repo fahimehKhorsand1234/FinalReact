@@ -12,10 +12,10 @@ export default function TabsNav() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-
+//class Box sx={{ width: '100%' }} //class div justify-center gap-2
   return (
-    <Box sx={{ width: '100%' }}>
-        <div className='flex flex-row  justify-around gap-4'>
+    <Box >
+        <div className='flex flex-row'>
             <Tabs
                 value={value}
                 onChange={handleChange}
@@ -23,9 +23,9 @@ export default function TabsNav() {
                 indicatorColor="primary"
                 aria-label="secondary tabs example"
             >
-                <AutoAwesomeMotionIcon/><Tab value="one" label="OVERVIEW" /> 
-                <BorderColorIcon /><Tab value="two" label="ITEMS" />
-                <GridViewIcon /><Tab value="three" label="PROJECTS" />
+                <div><AutoAwesomeMotionIcon/><Tab value="one" label="OVERVIEW" /> </div>
+                <div><BorderColorIcon /><Tab value="two" label="ITEMS" /></div>
+                <div><GridViewIcon /><Tab value="three" label="PROJECTS" /></div>
             </Tabs>
       </div>
     </Box>

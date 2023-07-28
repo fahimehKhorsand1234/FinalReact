@@ -13,7 +13,9 @@ export default function SelectBig1({value1,value2,value3,value4,value5,text}) {
 //   minWidth: 175 
   return (
     <div>
-      <FormControl sx={{ m: 1 }}>
+      <FormControl sx={{'& .MuiInputBase-root ':{
+        borderRadius:'16px!important',borderColor:"#fff",
+      }, m: 1 ,width:100}}>
         <InputLabel id="demo-simple-select-autowidth-label">{text}</InputLabel>
         <Select
           labelId="demo-simple-select-autowidth-label"

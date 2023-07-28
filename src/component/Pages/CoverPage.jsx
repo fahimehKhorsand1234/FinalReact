@@ -9,13 +9,13 @@ import HeaderNavForms from '../formComponent/SingInpage/HeaderNavForms';
 export default function CoverPage() {
   return (
     <div className='relative w-full h-full' >
-        <div className='headernavcoverpage inset-x-60  mb-0 '>
+        <div className='headernavcoverpage inset-x-60  mb-0 h-20 w-3/4'>
                 <HeaderNavForms/>
         </div>
         
         <div className=' flex flex-row '>
             <div className='imgcoverpage '>
-                    <div className=' flex flex-col text-white font-bold px-20  mt-80'>
+                    <div className=' flex flex-col text-white font-bold justify-center items-center  mt-72'>
                       <div>
                          <p className='text-2xl'> I N S P I R E D  B Y  T H E  F U T U R E :</p>
                       </div>

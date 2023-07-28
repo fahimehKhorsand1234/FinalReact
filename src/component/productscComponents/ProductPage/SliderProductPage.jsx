@@ -87,14 +87,14 @@ export default function SliderProductPage({ images }) {
   );
   return (
     <div>
-      <div>
+      <div className="flex flex-col justify-center">
         <img
           src={selectedImage}
           alt=""
-          className="w-60 h-60 rounded rounded-lg "
+          className="w-full h-full rounded rounded-lg "
         />
       </div>
-      <div className="flex flex-row gap-2 ">
+      <div className="flex flex-row  justify-center mt-5   gap-2 ">
         {/* <div onClick={() => setImage(sofa1)}>
           <img src={sofa1} alt="" className="w-14 h-14 rounded rounded-lg " />
         </div> */}

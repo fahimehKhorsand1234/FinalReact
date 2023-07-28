@@ -7,22 +7,24 @@ import CustomTabPanel from '../productscComponents/TabNewProduct'
 export default function NewProduct() {
   return (
     <>
-        <div className='NewproductPage'>
-                <div className='Hnp'><HeaderNavProduct/></div>
-                    <div className='flex flex-col  ml-72   mb-0  divflexres'>
+        <div className='NewproductPage '>
+            <HeaderNavProduct>
+                    <div className='flex flex-col mb-0 '>
                         <div className=''>
-                            <div className='relative imgnewproductres'>
-                                <img src={ImgNewProduct} alt="" className='ImgNewproduct w-11/12 h-40' />
-                                <div className='absolute w-10/12 h-28 top-32 ml-14 mb-10 '>
+                            <div className='relative'>
+                                <img src={ImgNewProduct} alt="" className='ImgNewproduct w-11/12 h-40 '  />
+                                <div className='absolute w-10/12 h-28 top-32 ml-14 mb-10'>
                                     <NavProducts/>
                                 </div>
                             </div>
-                           
                         </div>
-                        <div className='mt-24 ml-44 customtabpanelres'>
+                        <div className=' mt-24'>
                             <CustomTabPanel/>
+                            
                         </div>
+                    
                     </div>
+             </HeaderNavProduct>        
         </div>
     </>
   )

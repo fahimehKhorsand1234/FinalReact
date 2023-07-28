@@ -1,7 +1,7 @@
 import React from 'react'
 
-import ButtonCont from './buttoncont';
-import ButtonOut from './ButtonOut';
+//import ButtonCont from './buttoncont';
+//import ButtonOut from './ButtonOut';
 import InputPricing from './InputPricigProducts';
 import SelectInput from './SelectInputPricing';
 import InputTagsPricing from './InputTagsPricing';
@@ -17,10 +17,10 @@ export default function PricingNewProducts() {
                 <div className='flex flex-col my-5'>
                   
                     <div>
-                        <div className='flex flex-row justify-around m-4'>
+                        <div className='flex  sm:flex-col lg:flex-row gap-2 m-4'>
                             <div>
                                 <p className='mb-2'>Price</p>
-                                <InputPricing className="rounded rounded-xl txet-gray-500" text="ey.$99.99"/>
+                                <InputPricing  text="ey.$99.99"/>
                             </div>
                             <div>
                                 <p className='mb-2'>Currency</p>
@@ -28,7 +28,7 @@ export default function PricingNewProducts() {
                             </div>
                             <div>
                                 <p className='mb-2'>Sku</p>
-                                <InputPricing className="text-gray-500" text="123654789"/>
+                                <InputPricing  text="123654789"/>
                             </div>
                         </div>
                     </div>

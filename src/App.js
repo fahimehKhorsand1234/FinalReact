@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes,Route } from "react-router-dom";
+//import { Routes,Route } from "react-router-dom";
 //import CoverPage from "./component/Pages/CoverPage";
 //import Layout from "./component/Layout/Layout";
 //import SideBar from '../src/component/Dashboard/Sidebar';
